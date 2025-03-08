@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    margin: 5px auto;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 24px;
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.top-nav h2{
+    position: relative;
+    left: 12px;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.top-nav li{
+    list-style-type: none;
+    
+   
+}
+
+.top-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    position: relative;
+    top: 5px;
+    right: 55px;
+
+}
+#CV{
+    background-color: rgb(255, 128, 0);
+    width: 120px;
+    height: 30px;   
+    margin-top: 10px;
+}
+.name{
+    display: flex;
+    margin-left: 100px;
+}
+.name-text{
+    width: 50%
+}
+.name-text h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#Hire{
+    background-color: rgb(255, 128, 0);
+    width: 100px;
+    height: 30px;
+}
+.name-image{
+    position: relative;
+    right: 180px;
+    bottom: 30px;
+}
+.name-image img:nth-last-of-type(1){
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-bottom: 5px;
+}
+
+.profiles img{
+    margin: 0;
+    padding: 0;
+    margin-right: 9px;
+    position: relative;
+    left: 220px;
+}
+.profiles img:last-of-type {
+    margin-left: 0;
+}
+.about-me{
+    display: flex   ;
+}
+.about-image{
+    width: 100%;
+    margin-left: 150px;
+}
+.about-text{
+    margin-left: 250px;
+}
+.about-text p{
+    margin-right: 500px;
+}
+.about-image img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 100px;
+    
+}
+.containers{
+    display: flex;
+    width: 80%;
+}
+.container{
+    width: 18%;
+    background-color: white;
+    border-radius: 20px;
+}
+.container h3, p{
+    color: black;
+    background-color: white;
+}
+.container img{
+    margin-top: 15px;
+    position: relative;
+    left: -10px;
+    
+}
+.butt button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 200px;    
+}
+/* .butt button:nth-of-type(5){
+   position: relative;
+   top: 8px;
+} */
+.project img{
+    border-radius: 5%;
+}
+
+.proj{
+    display: flex;
+    width: 70%;
+}
+.proj p{
+    background-color: black;
+    color:rgb(255, 128, 0);
+}
+.proj h4{
+    position: relative;
+    bottom: 1px;
+}
+.test{
+    display: flex;
+    width: auto;
+}
+.testimonials p{
+    width: 40%;
+    
+   
+}
+.two-image{
+    background-color: white;
+}
+.two-image img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 20px;
+    
+}
+.two{
+    display: flex;
+    background-color: white;
+    width: 40%;
+    height: 130px;
+    border-radius: 5px;
+}
+.two p{
+    background-color: white;
+    color: black;
+    width: 90%;
+    margin: 20px;
+}
+.two-text{
+    background-color: white;
+}
+.grids{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    justify-content: space-evenly;
+}
+.grid-item{
+    width: 30px;
+    height: 10px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    margin-right: -420px;
+    
+  
+}
+
+.grid-item:nth-of-type(2){
+    position: relative;
+    right: 500px;
+    
+}
+.grid-item:nth-of-type(3){
+    position: relative;
+    right: 690px;
+   
+}
+.grid-item:nth-of-type(4){
+    position: relative;
+    right: 1200px;
+    background-color: rgb(255, 128, 0);
+}
+.inputs{
+    display: flex;
+}
+.text input{
+    width: 360px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 500px;
+}
+#contact button{
+    margin-right: 500px;
+    background-color: rgb(255, 128, 0);
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+.footer ul{
+    width: 40%;
+    
+}
+.footer li{
+    list-style-type: none;
+   
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 40px;
+    position: relative;
+    top: 5px;
+    right: 30px;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 40px;
+    
+    
+}
+.foot-image{
+    margin-left: 690px;
+}
